@@ -13,18 +13,16 @@
     <license>MIT</license>
     <keywords>url, open, external, safari, chrome, ie, explorer</keywords>
 
-  	<platform name="browser">
-		<js-module src="www/OpenUrlExt.js" name="OpenUrlExt">
-			<clobbers target="OpenUrlExt" />
-		</js-module>
-  	</platform>
+	<js-module src="www/OpenUrlExt.js" name="OpenUrlExt">
+		<clobbers target="OpenUrlExt" />
+	</js-module>
     
-    <!-- Android -->
+    <!-- Android 
   	<platform name="android">
       	<js-module src="www/OpenUrlExt.js" name="OpenUrlExt">
         	<runs/>
       	</js-module>
-  	</platform>
+  	</platform>-->
 
 	<!-- iOS -->
     <platform name="ios">
