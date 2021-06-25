@@ -8,11 +8,8 @@
 var argscheck = require('cordova/argscheck'),
     exec      = require('cordova/exec');
 
-function OpenUrlExt () {};
-
-OpenUrlExt.prototype = {
-
-    open: function (url, success, failure, params)
+var OpenUrlExt = {
+    open: (url, success, failure, params)
     {
     	var urlHashed;
     	if(params && params.encode == false)
@@ -34,4 +31,4 @@ OpenUrlExt.prototype = {
     }
 };
 
-module.exports = new OpenUrlExt();
+module.exports = OpenUrlExt;

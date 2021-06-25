@@ -16,7 +16,7 @@
     <!-- Android -->
   	<platform name="android">
       	<js-module src="www/OpenUrlExt.js" name="OpenUrlExt">
-			<merges target="OpenUrlExt" />
+			<clobbers target="OpenUrlExt" />
       	</js-module>
   	</platform> 
 
@@ -30,7 +30,7 @@
         <source-file src="ios/OpenUrlExt.m" />
         <header-file src="ios/OpenUrlExt.h" />		
 		<js-module src="www/OpenUrlExt.js" name="OpenUrlExt">
-			<merges target="OpenUrlExt" />
+			<clobbers target="OpenUrlExt" />
 		</js-module>
     </platform>
     
