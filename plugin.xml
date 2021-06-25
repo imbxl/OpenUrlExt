@@ -22,7 +22,7 @@
       	<js-module src="www/OpenUrlExt.js" name="OpenUrlExt">
         	<runs/>
       	</js-module>
-  	</platform>-->
+  	</platform> -->
 
 	<!-- iOS -->
     <platform name="ios">
